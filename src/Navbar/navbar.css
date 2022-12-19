@@ -1,0 +1,37 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.nav__wrapper {
+    margin: auto;
+    margin-top: 15vh;
+    justify-content: center;
+    width: 1280px;
+    text-align: center;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__title {
+    float: left;
+    color: #2E2E2E;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.right__container {
+    margin-top: 2.5rem;
+}
+
+.right__container ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.right__container li {
+    text-decoration: none;
+    list-style: none;
+}
